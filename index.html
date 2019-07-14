@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <title>LDRBRD: e-Sports</title>
     </head>
     <body>
@@ -13,62 +14,15 @@
         </nav>
         <main>
             <section class="userSearch">
-                <form>
-                    <label for="search-term">Discover</label>
-                    <select>
-                        <option value="LoL">League of Legends</option>
-                        <option value="CSGO">Counter Strike: GO</option>
-                        <option value="dota2">Dota2</option>
-                        <option value="ow">OverWatch</option>
-                      </select>
-                    <input type="submit" value="Search!">
-                </form>
+                <p>
+                    Leaderboard is your home for the most up to date news and
+                    results for your favorite e-Sports matches, teams 
+                    and players in The Overwatch League!
+                </p>
             </section>
-            <!--<section class="displayResults hidden">
-                    <span class="details">
-                        <span class="result">
-                            <span class="imagePlaceholder"></span>
-                            <p>v.s.</p>
-                            <span class="imagePlaceholder"></span>
-                            <p class="resultText">
-                                Result text goes here. And Should be on another line so it is easier to read.
-                            </p>
-                        </span>
-                    </span>
-                Result number two
-                        <span class="details">
-                            <span class="result">
-                                <span class="imagePlaceholder"></span>
-                                <p>v.s.</p>
-                                <span class="imagePlaceholder"></span>
-                                <p class="resultText">
-                                    Result text goes here. And Should be on another line so it is easier to read.
-                                </p>
-                            </span>
-                        </span>
-                Result number three
-                        <span class="details">
-                            <span class="result">
-                                <span class="imagePlaceholder"></span>
-                                <p>v.s.</p>
-                                <span class="imagePlaceholder"></span>
-                                <p class="resultText">
-                                    Result text goes here. And Should be on another line so it is easier to read.
-                                </p>
-                            </span>
-                        </span>
-                Result number four
-                        <span class="details">
-                            <span class="result">
-                                <span class="imagePlaceholder"></span>
-                                <p>v.s.</p>
-                                <span class="imagePlaceholder"></span>
-                                <p class="resultText">
-                                    Result text goes here. And Should be on another line so it is easier to read.
-                                </p>
-                            </span>
-                        </span>
-            </section> -->
+            <section class="displayResults">
+                <span class="details"></span>
+            </section> 
         </main>
         <footer>
             <ul class="social">
@@ -77,5 +31,6 @@
                 <li class="social_icon">instagram</i></li>
             </ul>
         </footer>
+        <script src="main.js"></script>
     </body>
 </html>
